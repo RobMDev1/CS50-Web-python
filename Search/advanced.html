@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Google Search</a>
+        <a href="image.html">Image Search</a>
+    </div>
+    <div class="advanced-container">
+        <h1 style="color: white;">Advanced Search</h1>
+        <form action="https://www.google.com/search" method="get">
+            <p1 style="color: white;">Find pages with…</p1>
+            <div class="input-group">
+                <label style="color: white;">All these words: </label>
+                <input type="text" name="as_q" class="advanced-search-bar" placeholder="all these words:">
+            </div>
+            <div class="input-group">
+                <label style="color: white;">This exact word or phrase: </label>
+                <input type="text" name="as_epq" class="advanced-search-bar" placeholder="this exact word or phrase:">
+            </div>
+            <div class="input-group">
+                <label style="color: white;">Any of these words: </label>
+                <input type="text" name="as_oq" class="advanced-search-bar" placeholder="any of these words:">
+            </div>
+            <div class="input-group">
+                <label style="color: white;">None of these words: </label>
+                <input type="text" name="as_eq" class="advanced-search-bar" placeholder="none of these words:">
+            </div>
+            <button type="submit" class="advanced-button">Advanced Search</button>
+        </form>
+    </div>
+</body>
+</html>
